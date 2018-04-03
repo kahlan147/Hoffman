@@ -50,11 +50,7 @@ public class Node implements Serializable {
         }
     }
 
-    public Character findCharacter(BitSet set, IntPointer location) throws NoNodeException{
-
-        if(character == null && leftNode == null && rightNode == null){ //Should never be able to get here.
-            throw new NoNodeException();
-        }
+    public Character findCharacter(BitSet set, IntPointer location){
 
         if(character == null) {
             if (set.get(location.location)) {

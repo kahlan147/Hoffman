@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c03289-7692-4ca5-9dae-cb032762c446" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Classes/CharNotFoundException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Classes/FileManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Classes/IntPointer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Classes/NoNodeException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Classes/Node.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PerformanceTest/ManagerPerformance.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/UnitTest/ManagerTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/UnitTest/NodeTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Hoffman.iml" afterPath="$PROJECT_DIR$/Hoffman.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hoffman/Classes/Application.class" afterPath="$PROJECT_DIR$/out/production/Hoffman/Classes/Application.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hoffman/Classes/HoffmanComparator.class" afterPath="$PROJECT_DIR$/out/production/Hoffman/Classes/HoffmanComparator.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Hoffman/Classes/Manager.class" afterPath="$PROJECT_DIR$/out/production/Hoffman/Classes/Manager.class" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Application.java" afterPath="$PROJECT_DIR$/src/Classes/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/HoffmanComparator.java" afterPath="$PROJECT_DIR$/src/Classes/HoffmanComparator.java" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/HoffmanNode.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/Classes/Manager.java" afterPath="$PROJECT_DIR$/src/Classes/Manager.java" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Node.java" afterPath="$PROJECT_DIR$/src/Classes/Node.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +20,17 @@
     <SUITE FILE_PATH="coverage/Hoffman$ManagerTest.coverage" NAME="ManagerTest Coverage Results" MODIFIED="1522691872048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTest.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Hoffman$NodeTest.coverage" NAME="NodeTest Coverage Results" MODIFIED="1522736642980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTest.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Classes/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="648">
+              <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
               <folding>
                 <element signature="method#Manager#0;class#Manager#0" expanded="false" />
                 <element signature="method#splitString#0;class#Manager#0" expanded="false" />
@@ -54,8 +45,8 @@
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Classes/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+            <state relative-caret-position="303">
+              <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#657#658#0" expanded="true" />
@@ -67,11 +58,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="NodeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UnitTest/NodeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+              <folding>
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ManagerPerformance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PerformanceTest/ManagerPerformance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="874">
+              <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,8 +88,8 @@
       <file leaf-file-name="ManagerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UnitTest/ManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="570">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +100,8 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Classes/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+            <state relative-caret-position="646">
+              <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +114,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -137,11 +143,12 @@
         <option value="$PROJECT_DIR$/src/Classes/CharNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/Classes/IntPointer.java" />
         <option value="$PROJECT_DIR$/src/Classes/FileManager.java" />
-        <option value="$PROJECT_DIR$/src/Classes/Node.java" />
         <option value="$PROJECT_DIR$/src/Classes/Application.java" />
         <option value="$PROJECT_DIR$/src/UnitTest/ManagerTest.java" />
         <option value="$PROJECT_DIR$/src/PerformanceTest/ManagerPerformance.java" />
+        <option value="$PROJECT_DIR$/src/Classes/Node.java" />
         <option value="$PROJECT_DIR$/src/Classes/Manager.java" />
+        <option value="$PROJECT_DIR$/src/UnitTest/NodeTest.java" />
       </list>
     </option>
   </component>
@@ -150,6 +157,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
@@ -201,10 +214,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ManagerTest">
+  <component name="RunManager" selected="JUnit.NodeTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -334,6 +347,31 @@
       <option name="MAIN_CLASS_NAME" value="UnitTest.ManagerTest" />
       <option name="METHOD_NAME" value="splitString" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Hoffman" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest.NodeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -522,18 +560,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Application" />
       <item index="1" class="java.lang.String" itemvalue="Application.ManagerPerformance" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.ManagerTest.splitString" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.ManagerTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NodeTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ManagerTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ManagerPerformance" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Application" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ManagerTest.splitString" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NodeTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ManagerTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ManagerPerformance" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ManagerTest.splitString" />
       </list>
     </recent_temporary>
   </component>
@@ -552,44 +592,45 @@
       <updated>1519732923434</updated>
       <workItem from="1520942046073" duration="6684000" />
       <workItem from="1520950802252" duration="705000" />
-      <workItem from="1522669853025" duration="14164000" />
+      <workItem from="1522669853025" duration="14761000" />
+      <workItem from="1522732113236" duration="2043000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ManagerTest - 2018.04.02 at 18h 05m 08s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.04.03 at 08h 17m 48s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2018.04.02 at 18h 14m 23s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.04.03 at 08h 18m 02s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2018.04.02 at 18h 14m 41s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.04.03 at 08h 18m 25s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2018.04.02 at 18h 21m 14s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.04.03 at 08h 18m 37s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2018.04.02 at 18h 22m 29s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.04.03 at 08h 18m 49s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2018.04.02 at 18h 23m 02s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.04.03 at 08h 19m 33s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2018.04.02 at 18h 23m 24s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.04.03 at 08h 20m 08s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2018.04.02 at 19h 24m 43s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.04.03 at 08h 21m 19s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2018.04.02 at 19h 25m 24s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.04.03 at 08h 23m 44s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ManagerTest - 2018.04.02 at 19h 57m 55s.xml">
-      <configuration name="ManagerTest" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2018.04.03 at 08h 24m 04s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21553000" />
+    <option name="totallyTimeSpent" value="24193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -598,30 +639,30 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.008055854" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24704619" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18689582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1895811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36602053" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -644,20 +685,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Classes/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="98" column="33" lean-forward="false" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
-          <folding>
-            <element signature="method#Manager#0;class#Manager#0" expanded="false" />
-            <element signature="method#splitString#0;class#Manager#0" expanded="false" />
-            <element signature="method#frequencyWords#0;class#Manager#0" expanded="false" />
-            <element signature="method#getHoffmanTree#0;class#Manager#0" expanded="false" />
-            <element signature="method#enCodeBitString#0;class#Manager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Classes/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1048,23 +1075,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#159#160#0" expanded="false" />
-            <element signature="e#199#200#0" expanded="false" />
-            <element signature="e#228#229#0" expanded="false" />
-            <element signature="e#254#255#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Huffman">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Huffman" />
     <entry file="file://$PROJECT_DIR$/src/Classes/FileManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1087,14 +1101,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Classes/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+        <state relative-caret-position="646">
+          <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1103,8 +1116,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UnitTest/ManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="570">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1113,18 +1126,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PerformanceTest/ManagerPerformance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="874">
+          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classes/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+          <folding>
+            <element signature="method#Manager#0;class#Manager#0" expanded="false" />
+            <element signature="method#splitString#0;class#Manager#0" expanded="false" />
+            <element signature="method#frequencyWords#0;class#Manager#0" expanded="false" />
+            <element signature="method#getHoffmanTree#0;class#Manager#0" expanded="false" />
+            <element signature="method#enCodeBitString#0;class#Manager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Classes/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="44" column="58" lean-forward="true" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+        <state relative-caret-position="303">
+          <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#657#658#0" expanded="true" />
@@ -1135,16 +1162,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Classes/Manager.java">
+    <entry file="file://$PROJECT_DIR$/src/UnitTest/NodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="132">
+          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
           <folding>
-            <element signature="method#Manager#0;class#Manager#0" expanded="false" />
-            <element signature="method#splitString#0;class#Manager#0" expanded="false" />
-            <element signature="method#frequencyWords#0;class#Manager#0" expanded="false" />
-            <element signature="method#getHoffmanTree#0;class#Manager#0" expanded="false" />
-            <element signature="method#enCodeBitString#0;class#Manager#0" expanded="false" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
           </folding>
         </state>
       </provider>

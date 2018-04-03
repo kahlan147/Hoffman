@@ -103,14 +103,12 @@ public class Manager {
 
     public StringBuilder decodeBitString(BitSet encodedMessage, Node tree) {
         StringBuilder result = new StringBuilder();
-        try {
+
             IntPointer intPointer = new IntPointer(0);
             while (encodedMessage.nextSetBit(0) >= 1) {
                 result.append(String.valueOf(tree.findCharacter(encodedMessage, intPointer)));
             }
-        } catch (NoNodeException e) {
-            System.out.println("NoNodeDetected");
-        }
+
         return result;
     }
 }
