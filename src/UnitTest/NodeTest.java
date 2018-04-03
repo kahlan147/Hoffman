@@ -27,6 +27,13 @@ public class NodeTest {
         Node leftNode = new Node(leftLeftNode,rightLeftNode);
         rightNode = new Node('c',6);
         tree = new Node(leftNode,rightNode);
+        /*
+                ()
+               /  \
+             (c)  ()
+                 /  \
+               (a)  (b)
+         */
     }
 
     @Test

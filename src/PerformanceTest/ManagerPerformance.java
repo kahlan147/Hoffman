@@ -51,7 +51,6 @@ public class ManagerPerformance {
             }
             sb.append(letter);
         }
-        System.out.println(sb.length());
         return sb.toString();
     }
 

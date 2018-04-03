@@ -73,11 +73,11 @@ public class Manager {
         try {
             for (char character : input.toCharArray()) {
                 bitString += tree.findCharacter(character, "");
-                x++;
+                /*x++;
                 if(x >= 12000 * y){
                     y++;
                     System.out.println("countCheck " + x);
-                }
+                }*/
             }
         }
         catch(CharNotFoundException e){

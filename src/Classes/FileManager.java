@@ -31,7 +31,7 @@ public class FileManager {
         }
     }
 
-    // TODO: PRETTY THIS UP, so that it isn't Object[] but 2 different things
+
     public Object[] readFromFile(File inputFile)
     {
         Object[] output = new Object[2];
